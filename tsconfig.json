@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    // Add any specific compiler options here
+  },
+  "include": ["**/*.ts"],  // Includes all .ts files within the project directory
+  "exclude": ["node_modules"]  // Exclude node_modules
+}
