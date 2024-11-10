@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Resume Builder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Dynamic Resume Builder</h1>
+
+    <div class="form-container">
+        <form id="resumeForm">
+            <h2>Personal Information</h2>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <h2>Education</h2>
+            <label for="education">Education:</label>
+            <input type="text" id="education" name="education" required>
+            <label for="university">University:</label>
+            <input type="text" id="university" name="university" required>
+
+            <h2>Work Experience</h2>
+            <label for="jobTitle">Job Title:</label>
+            <input type="text" id="jobTitle" name="jobTitle" required>
+            <label for="company">Company:</label>
+            <input type="text" id="company" name="company" required>
+
+            <h2>Skills</h2>
+            <label for="skills">Skills (comma separated):</label>
+            <input type="text" id="skills" name="skills" required>
+
+            <button type="submit">Generate Resume</button>
+        </form>
+    </div>
+
+    <div class="resume-container">
+        <h2>Resume Preview</h2>
+        <div id="resume">
+            <h3 id="resumeName">Name</h3>
+            <p id="resumeEmail">Email</p>
+            <h4>Education</h4>
+            <p id="resumeEducation">Education Info</p>
+            <p id="resumeUniversity">University</p>
+            <h4>Work Experience</h4>
+            <p id="resumeJobTitle">Job Title</p>
+            <p id="resumeCompany">Company</p>
+            <h4>Skills</h4>
+            <p id="resumeSkills">Skills</p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
