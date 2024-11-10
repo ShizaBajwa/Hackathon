@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editable Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="center-content">
+        <div>
+            <h1>Welcome to My Resume</h1>
+        </div>
+   
+    
+    <section id="personal-info" class="editable">
+        <img src="profile.jpg" alt="Profile Picture" class="profile-pic">
+        <h1 contenteditable="true" id="name">Shiza Aijaz</h1>
+        <li contenteditable="true" id="phone">Phone: 0319-3493252</li>
+        <li contenteditable="true" id="email">Email: bajwashiza@gmail.com</li>
+        <li contenteditable="true" id="location">Location: Karachi, Pakistan</li>
+    </section>
+
+ 
+    <section id="education" class="editable">
+        <h2>Education</h2>
+        <ul>
+            <li contenteditable="true" id="degree">Bachelor of Science in Cyber Security - Fast Nuces Karachi</li>
+            <li contenteditable="true" id="college">Intermediate - Bahria Foundation College Sanghar (2022)</li>
+        </ul>
+    </section>
+
+   
+    <section id="skills" class="editable">
+        <h2>Skills</h2>
+        <ul>
+            <li contenteditable="true" id="skill1">JavaScript, TypeScript, HTML, CSS</li>
+            <li contenteditable="true" id="skill2">React, C, C++, Data Structures</li>
+            <li contenteditable="true" id="skill3">Node.js, Express, MongoDB</li>
+            <li contenteditable="true" id="skill4">Digital Forensics</li>
+        </ul>
+    </section>
+ </div>
+    <script src="script.ts"></script>
+</body>
+</html>
